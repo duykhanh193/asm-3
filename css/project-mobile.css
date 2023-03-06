@@ -94,15 +94,6 @@ ul {
     
 }
 
-.timeline-date li::before {
-    content: "\2080";
-    display: block;
-    position: absolute;
-    font-size: 26px;
-    font-weight: 100;
-    top: -14px;
-    left: -29px;
-}
 
 .timeline-date li::after {
     content: "";

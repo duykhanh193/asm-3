@@ -68,9 +68,7 @@
     .timeline {
         order: 2;
     }
-    .timeline-date li::before {
-        top: -14px;
-    }
+    
     .timeline-date li::after {
         top: -8px;
     }
