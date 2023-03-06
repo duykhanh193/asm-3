@@ -1,0 +1,124 @@
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    /* BANNER */
+
+    #banner {
+        height: 80vh;
+    }
+    .banner-name h1 {
+        font-size: 3rem;
+    }
+
+    /* BANNER */
+
+    /* NAVIGATION */
+    .nav-wrap a:first-child{
+         border-left: 1px solid #f2f2f2;
+    }
+    .nav-wrap a {
+        border-right: 1px solid #f2f2f2;
+        display: block;
+        padding-left: 0;
+        padding-right: 0;
+    }
+     /* NAVIGATION */
+
+    /* PERSONAL INFORMATION */
+    .hooby-wrap {
+        width: 15%;
+
+    }
+    .hooby-wrap i {
+        font-size: 100%;
+        width: 48px;
+        height: 48px;
+        
+    }
+    .job-infor {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+     /* PERSONAL INFORMATION */
+
+    /* CERTIFICATE */
+    .certificate .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .certificate:nth-of-type(1)::before {
+        content: "";
+        display: block;
+        width: 1px;
+        height: 100%;
+        background-color: #d6c08d;
+        position: absolute;
+        top: 0;
+        right: -3px;
+    }
+    
+    .certificate:nth-of-type(1)::after {
+        content: "";
+        display: block;
+        width: calc(100% + 40px);
+        height: 1px;
+        background-color: #d6c08d;
+        position: absolute;
+        bottom: -16px;
+    }
+    
+    .certificate:nth-of-type(2)::after {
+        content: "";
+        display: block;
+        width: calc(100% - 70px);
+        height: 1px;
+        background-color: #d6c08d;
+        position: absolute;
+        bottom: -16px;
+    }
+
+     /* CERTIFICATE */
+
+     /* PROJECT */
+    .project-wrap h4 {
+    padding: 10px 5px;
+    font-weight: 400;
+    }
+   
+    .project-info {
+        
+        grid-template-columns: repeat(2, fr);
+        
+
+    }
+    .project-name h4{
+        font-size: 1rem;
+    }
+    .project-info span:last-child{
+        grid-column: 2/3;
+    }
+
+    /* PROJECT */
+
+    /* FOOTER */
+
+    .container-footer ul li *:last-child {
+        display: block;
+    }
+    .icon-footer {
+        font-size: 40px;
+    }
+    /* FOOTER */
+}

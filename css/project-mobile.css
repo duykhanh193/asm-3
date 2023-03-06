@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.digital-project {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: F1F8FF;
+    border: 7px solid #0000FF;
+}
+h1 {
+    padding: 10px 5px;
+    margin: 0 10px 15px;
+    border-bottom: 1px solid #ccc;
+    color: #0000FF;
+    font-size: 1.2rem;
+}
+h2 {
+    font-size: 1rem;
+}
+p {
+    font-size: 0.9rem;
+}
+ul {
+    padding-left: 0;
+}
+/* GOALS */
+
+.goals {
+    border: 7px solid #0000FF;
+    order: 0;
+}
+
+.goal-flag li{
+    position: relative;
+    list-style-type: none;
+    margin: 50px 20px 15px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.goal-flag li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/flag-checkered-solid.svg);
+    background-size: cover;
+    top: -38px;
+    left: calc(50% - 10px)
+}
+
+/* GOALS */
+
+/* TEAM */
+.team {
+    border: 7px solid blue;
+    list-style: none;
+    order: 2;
+    
+}
+
+.team-user li {
+    position: relative;
+    list-style: none;
+    margin: 50px 20px 15px;
+}
+
+.team-user li::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/user-solid.svg);
+    background-size: cover;
+    top: -35px;
+    left: calc(50% - 8px);
+}
+
+/* TEAM */
+
+/* TIMELINES */
+.timeline {
+    border: 7px solid blue;
+    order: 4;
+}
+
+
+.timeline-date li{
+    position: relative;
+    padding-left: 20px;
+    margin: 10px 20px 15px;
+    border-bottom: 1px dotted #7CCCD2;
+    
+}
+
+.timeline-date li::before {
+    content: "\2080";
+    display: block;
+    position: absolute;
+    font-size: 26px;
+    font-weight: 100;
+    top: -14px;
+    left: -29px;
+}
+
+.timeline-date li::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(158, 137, 255, 0.5);
+    top: -7px;
+    left: -38px;
+}
+
+/* TIMELINES */
+
+/* SCOPES */
+.scopes {
+    border: 7px solid blue;
+    order: 1;
+}
+.in-and-out {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px 30px 0;
+}
+
+/* SCOPES */
+
+/* PRIMARY */
+
+.primary {
+    border: 7px solid blue;
+    order: 3;
+}
+.primary-ask li {
+    position: relative;
+    padding-left: 10px;
+    list-style: none;
+    margin: 50px 20px 15px;
+}
+.primary-ask li::before {
+    content: "\0";
+    display: block;
+    position: absolute;
+    font-size: 20px;
+    top: -45px;
+    left: calc(50% - 10px);
+}
+
+/* PRIMARY */
